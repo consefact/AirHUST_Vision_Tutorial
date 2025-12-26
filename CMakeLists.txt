@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(prj_name)
+project(lab1_3)
 
 find_package(OpenCV REQUIRED) 
 
