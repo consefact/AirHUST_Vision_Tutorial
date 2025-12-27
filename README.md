@@ -63,6 +63,16 @@ git clone https://github.com/<your-username>/AirHUST_Vision_Tutorial.git
 
 # 进入项目目录
 cd AirHUST_Vision_Tutorial
+
+# 将原仓库添加为上游
+git remote add upstream https://github.com/FirmamentumX/AirHUST_Vision_Tutorial.git
+
+# 拉取原仓库的所有分支
+git fetch upstream
+
+# 同步到本地和副本仓库
+git checkout -b 分支名 upstream/分支名
+git push origin 分支名
 ```
 
 ### 第四步：配置开发环境
