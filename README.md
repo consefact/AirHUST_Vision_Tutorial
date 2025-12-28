@@ -24,8 +24,8 @@
 
 ### 发布时间表
 - ✅ lab0_test_for_env (已发布)
-- 🔄 lab1_1_read_write_images (即将发布于2025/12/28)
-- 🔄 lab1_2_from_pixels_to_images (即将发布于2025/12/28)
+- ✅ lab1_1_read_write_images (已发布)
+- ✅ lab1_2_from_pixels_to_images (已发布)
 - 🔄 lab1_3_flipping_channels (即将发布于2025/12/28)
 - 🔄 lab1_4_spin_around (即将发布于2025/12/28)
 - 🔄 lab1_5_perspective_transform (即将发布于2025/12/28)
@@ -152,11 +152,12 @@ git push origin 分支名
 # 查看所有分支（包括远程分支）
 git branch -a
 
-# 获取最新的分支信息
-git fetch origin
+# 更新原仓库的所有分支
+git fetch upstream
 
-# 切换到特定的实验分支（例如lab1_1）
-git checkout lab1_1_read_write_images
+# 同步到本地和副本仓库
+git checkout -b 分支名 upstream/分支名
+git push origin 分支名
 
 # 查看当前所在分支
 git branch
