@@ -26,9 +26,9 @@
 - ✅ lab0_test_for_env (已发布)
 - ✅ lab1_1_read_write_images (已发布)
 - ✅ lab1_2_from_pixels_to_images (已发布)
-- 🔄 lab1_3_flipping_channels (即将发布于2025/12/28)
-- 🔄 lab1_4_spin_around (即将发布于2025/12/28)
-- 🔄 lab1_5_perspective_transform (即将发布于2025/12/28)
+- ✅ lab1_3_flipping_channels (已发布)
+- ✅ lab1_4_spin_around (已发布)
+- ✅ lab1_5_perspective_transform (已发布)
 
 ## 快速开始指南
 
