@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 project(lab2_2)
 
+set(OpenCV_DIR "C:/Program Files/opencv/build")
 find_package(OpenCV REQUIRED) 
 
 set(sc_executable_name ${PROJECT_NAME})
